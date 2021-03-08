@@ -1,0 +1,11 @@
+.titleDiv
+{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 50px 0;
+}
+.titleDiv h1,.titleDiv p
+{
+    text-transform: capitalize;
+}

@@ -1,0 +1,97 @@
+.advDiv
+{
+    min-height: 50vh;
+    width: 100vw;
+    background: url(https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) #000000a9 center no-repeat scroll ;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    padding: 45px 0;
+    margin: 0 !important;
+
+}
+.advDiv .left
+{
+    text-align: left;
+}
+.advTitle>h2
+{
+    font-size: 30px;
+}
+.advPara ,.advBtn
+{
+    margin-top: 20px;
+}
+.advPara
+{
+    font-size: 14px;
+}
+.advBtn
+{
+    padding: 12px 30px;
+    border:2px solid crimson;
+    color: crimson;
+    width: max-content;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.advBtn:hover
+{
+    background:crimson;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+.right,.advFeature
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.advFeature
+{
+flex-wrap: nowrap;
+text-align: left;
+margin: 2%;
+
+}
+.iconDiv
+{
+    margin-right: 20px;
+    font-size: 50px;
+    color: crimson;
+}
+.detailTitle
+{
+
+    font-size: 18px;
+}
+.detailPara
+{    margin-top: 12px;
+    width: 90%;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+@media screen and (max-width:800px)
+{
+    .advDiv .left
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .advBtn
+    {
+        margin: 20px auto;
+        width: 60%;
+    }
+    .advFeature
+    {
+        width: 110%;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,89 @@
+
+.selectorForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   width: 100% !important;
+    margin: 30px 0;
+    
+}
+.formDiv
+{   width: 100vw;
+    margin: 30px 0;
+    padding: 0 5vw;
+ margin-top: 0;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form-row
+{
+    width: 100%;
+}
+.form-control
+{
+    padding: 1%;
+    border: 2px solid gray;
+    font-family: 'Montserrat',sans-serif;
+}
+.selectorForm .submitBtn
+{
+    line-height: 20px;
+    background: crimson;
+    color: #fff;
+    border: 2px solid crimson;
+}
+.selectorForm .submitBtn:hover
+{
+    background: #007BFF;
+    border: 2px solid #007BFF;
+}
+.rangeLabel
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat',sans-serif;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+  
+    border: none;
+}
+.rangeControl {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 2px; /* Specified height */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-top: 12px;
+  }
+.rangeControl:focus
+{
+    border: none;
+    outline: none;
+}
+.rangeControl::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: crimson ;
+    cursor: e-resize;
+  }
+  
+  .rangeControl::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: crimson ;
+    cursor: pointer;
+  }

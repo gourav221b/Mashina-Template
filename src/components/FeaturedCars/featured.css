@@ -1,0 +1,112 @@
+
+.FeaturedDiv
+{
+    width: 100vw;
+}.carWrapper
+
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin: 0 5vw;
+  padding-bottom: 50px;
+}
+
+.filterDiv
+{
+    min-height:450px;
+    /* padding: 2%; */
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.1);
+    transform: scale(0.9);
+    font-family: 'Montserrat',sans-serif;
+    padding-bottom: 2%;
+}
+
+.blogImage
+{
+    width: 100%;
+    overflow: hidden;
+    height: 220px;
+    margin-bottom: 30px;
+    transform: scale(1.07);
+}
+.blogImage img
+
+{
+    width: 100%;
+    height: auto;
+}
+.tag
+{
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: -50px;
+    width: 40%;
+    height: 40px;
+    padding: 1% 2%;
+    line-height: 30px;
+    background: rgba(12, 47, 112, 0.897);
+    text-align: center;
+    color: #fff;
+    transform: rotate(-45deg);
+
+}
+.featured{
+    background: rgba(220, 20, 60, 0.981);
+}
+.Sale
+{
+    background: rgba(12, 47, 112, 0.981);
+}
+.Special
+{
+    background:rgba(11, 148, 57, 0.981) ;
+}
+.carDetails
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex: 1;
+}
+.price
+{
+margin-left: 2%;
+margin-top: 12px;
+font-size: 30px;
+color: crimson;
+letter-spacing: 2px;
+}
+
+
+.carName
+{
+    color: crimson;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+}
+.address
+{
+    color: gray;
+    font-size: 21px;
+}
+.carIconWrapper
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.carIcon
+{
+    font-size: 16px;
+    text-align: left;
+    color: crimson;
+    font-family: 'Montserrat',sans-serif;
+    
+}

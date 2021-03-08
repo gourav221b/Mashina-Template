@@ -1,0 +1,109 @@
+.nav
+{
+    font-family: 'Montserrat','Poppins',sans-serif;
+    width: 100vw;
+    min-height: 100px;
+    background: transparent ;
+    position: fixed;
+    /* top: 0; */
+    border-bottom: 2px solid rgba(78, 77, 77, 0.596);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding:  0 2%; */
+    color: rgba(255, 255, 255, 0.747);
+    transition: all 0.6s ease-in-out;
+    z-index: 5;
+}
+
+#hamMenu
+{
+    position: absolute;
+    right: 40px;
+    padding: 8px;
+    display: none;
+}
+#hamIcon
+{
+    color: #fff;
+    pointer-events: none;
+
+}
+#hamIcon:hover
+{
+    color: #fff;
+}
+
+.brandName
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.menu
+{
+    width: 40%;
+    display: flex;
+}
+
+.menu span
+{
+    margin: 0 3%;
+    text-decoration: none;
+    color: #fff !important;
+}
+.navItem
+{
+    color: #fff ;
+    /* font-family: 'Raleway',sans-serif; */
+}
+
+.navItem:hover
+{
+    text-decoration: none;
+    color: rgb(231, 36, 85) !important;
+    transition: 0.3s ease-in-out;
+}
+#closeBtn
+{
+    display: none;
+}
+@media screen and (max-width:800px)
+{
+    #hamMenu
+
+    {
+        display: inline-block;
+        right: 20px;
+    }
+    .nav{
+        justify-content: space-between ;
+    }
+    #closeBtn
+    {   display: inline-block;
+        font-size: 30px;
+        position: absolute;
+        right: 13px;
+        top: 7px;
+    }
+    .menu
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        height: 100vh;
+        width: 00px;
+        left: -20%;
+        top: 0;
+        background: #151515;
+        z-index: 5;
+        transition: all 0.5s ease-in-out;
+
+    }.open
+    {
+        width: 300px;
+        left:0;
+        transition: 0.5s ease-in-out;
+    }
+}

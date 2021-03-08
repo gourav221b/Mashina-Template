@@ -1,0 +1,95 @@
+[
+    {
+        "id":1,
+        "name":"Hyundai Santa",
+        "make":"Hyundai",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-170811.jpg&fm=jpg",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"4000km",
+        "year":"2019",
+        "transmission":"Manual",
+        "fuel":"Petrol",
+        "color":"blue",
+        "tag":"Featured"
+    },
+    {
+        "id":2,
+        "name":"Toyota Prius",
+        "make":"Toyota",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"3000km",
+        "year":"2019",
+        "transmission":"Manual",
+        "fuel":"Petrol",
+        "color":"red",
+        "tag":"Sale"
+    }
+    ,
+    {
+        "id":3,
+        "name":"Toyota Prius specs",
+        "make":"Toyota",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"5000km",
+        "year":"2019",
+        "transmission":"Autoc",
+        "fuel":"Petrol",
+        "color":"red",
+        "tag":"Sale"
+    }
+    ,
+    {
+        "id":4,
+        "name":"Hyundai Santa",
+        "make":"Hyundai",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"4000km",
+        "year":"2019",
+        "transmission":"Manual",
+        "fuel":"Petrol",
+        "color":"blue",
+        "tag":"Featured"
+    },
+    {
+        "id":5,
+        "name":"Toyota Prius",
+        "make":"Toyota",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"3000km",
+        "year":"2019",
+        "transmission":"Manual",
+        "fuel":"Petrol",
+        "color":"red",
+        "tag":"Special"
+    }
+    ,
+    {
+        "id":6,
+        "name":"Toyota Prius specs",
+        "make":"Toyota",
+        "price":"$ 800",
+        "image":"https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "per":"month",
+        "location":"123 Kathal St. Tampa City,",
+        "distance":"5000km",
+        "year":"2019",
+        "transmission":"Auto",
+        "fuel":"Petrol",
+        "color":"red",
+        "tag":"Special"
+    }
+]
