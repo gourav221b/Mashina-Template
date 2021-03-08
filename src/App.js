@@ -22,9 +22,10 @@ function App() {
     {/* Services */}
     {/* offer with grid */}
     {/* Testimonials */}
+    <Route path="*" component={Missing} />
     </Switch>
   <Footer/>
-  <Route path="*" component={Missing} />
+
      </Router>
     </div>
   );
